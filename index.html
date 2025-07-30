@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Devotion & Affirmation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><img class="jenny" src="images/profile.jpg" alt="My Profile"></div>
+    <div class="nav">GOD'S Plans for You Today</div>
+  <div class="container">
+    
+    <h1 class="daily">Welcome to Daily Inspiration</h1>
+    <button class="btn" onclick="openModal('devotion')">Show Today's Devotion</button>
+    <button class="btn" onclick="openModal('affirmation')">Show Today's Affirmation</button>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="intro">
+        <h3 class="introduction">Introduction</h3>
+        <h4 class="welcome">Welcome to this daily devotion. Whether today finds you in a season of healing, waiting, growth, or celebration this 
+           space was created with you in mind.Each day, you'll find a short devotion rooted in scripture, truth, and encouragement 
+           to help guide your steps and strengthen your spirit. This isn't about perfection. It's about progress. It's about staying
+           connected to God through every high, low, and in between moment of life.
+           These reflections came from my own journey times when I had to hold onto faith, even when everything around me was shifting.
+           My hope is that as you read, you feel uplifted, seen, and reminded that God is walking this path with you, every single day.
+           This devotion is your daily check-in with your soul. A time to pause, pray, and press forward in purpose. Let it be your 
+           reminder that no matter what the day holds, grace is available, strength is promised, and you are never alone.
+           Thank you for allowing me to be part of your journey.
+           With love and purpose, <br><br>
+           Jennifer Mouton</h4>
+      </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
